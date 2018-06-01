@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp81", "ConsoleApp81\ConsoleApp81.csproj", "{93A69AEF-C487-4DCB-AA27-E625DEC6174E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonScraping", "AmazonScraping\AmazonScraping.csproj", "{054B18EA-D0EA-4042-A9A9-B6C78FDDC978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonScraping.Api", "AmazonScraping.Api\AmazonScraping.Api.csproj", "{175E2FCB-4974-491D-8200-956B6250AB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{93A69AEF-C487-4DCB-AA27-E625DEC6174E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A69AEF-C487-4DCB-AA27-E625DEC6174E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A69AEF-C487-4DCB-AA27-E625DEC6174E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054B18EA-D0EA-4042-A9A9-B6C78FDDC978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054B18EA-D0EA-4042-A9A9-B6C78FDDC978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054B18EA-D0EA-4042-A9A9-B6C78FDDC978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054B18EA-D0EA-4042-A9A9-B6C78FDDC978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175E2FCB-4974-491D-8200-956B6250AB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175E2FCB-4974-491D-8200-956B6250AB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175E2FCB-4974-491D-8200-956B6250AB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175E2FCB-4974-491D-8200-956B6250AB0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

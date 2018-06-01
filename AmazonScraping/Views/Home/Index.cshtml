@@ -1,0 +1,39 @@
+﻿@using AmazonScraping.Api
+@model AmazonScraping.Models.HomePageViewModel
+    
+<div class="row">
+    <form action="/home/index">
+        <div class="col-md-10">
+            <input value="@Model.SearchTerm" type="text" class="form-control input-lg" name="searchterm" placeholder="Search Amazon"/>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-success btn-lg">Search</button>
+        </div>
+    </form>
+</div>
+
+
+@if (Model.Items != null)
+{
+    <table class="table table-bordered" style="margin-top: 30px;">
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    <img src="@item.ImageUrl"/>
+                </td>
+                <td>
+                    <a href="@item.Url">@item.Title</a>
+                </td>
+                <td>
+                    @(item.Price == null ? "N/A" : item.Price.Value.ToString("C"))
+                </td>
+            </tr>
+        }
+    </table>
+}
